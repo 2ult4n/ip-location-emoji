@@ -1,0 +1,15 @@
+{
+  "name": "ip-location-emoji",
+  "version": "1.0.0",
+  "description": "this package given and ip or hostname gives the flag of country that ip location belongs to ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sultan S.",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "ip-location": "^1.0.1"
+  }
+}
