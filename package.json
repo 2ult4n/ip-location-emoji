@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.0",
-    "ip-location": "^1.0.1"
+    "iplocation": "^6.1.0"
   }
 }

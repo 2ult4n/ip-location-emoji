@@ -1,14 +1,22 @@
-var ipLocation = require('ip-location')
-var axios = require('axios')
+const ipLocation = require('iplocation').default
 const emoji_source = 'https://unpkg.com/country-flag-emoji-json@1.0.2/json/flag-emojis-by-code.pretty.json'
-
+const axios = require('axios')
 
 exports.getEmoji = (hostname) => {
-    var emoji = undefined
-    ipLocation(hostname, function(error , data) {
-        console.log(data)
-    }).catch((error)=>{
-        console.log(error)
+    var emoji = ''
+
+    ipLocation(hostname)
+    .then((res) => {
+        var countryCode = res.countryCode
+        axios.get(emoji_source).then(function (response) {
+            emoji = response.data[countryCode].emoji
+        })
+        .catch(function (error) {
+            console.error(error)
+        })
     })
-    return emoji
+    .catch(error => {
+        console.error(error)
+    });
+return emoji
 }

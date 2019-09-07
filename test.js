@@ -1,3 +1,4 @@
 var test = require('./index')
 
-test.getEmoji('github.com')
+test.getEmoji('59.197.51.103')
+
