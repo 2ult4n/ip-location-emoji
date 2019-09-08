@@ -1,5 +1,5 @@
 # ip-location-emoji
-[![CodeFactor](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji/badge)](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/ip-location-emoji.svg)](https://badge.fury.io/js/ip-location-emoji) [![CodeFactor](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji/badge)](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 
 
@@ -16,7 +16,7 @@ $ npm install --save ip-location-emoji
 __Importing:__
 
 ```javascript
-const ip-location-emoji = require("ip-location-emoji")
+const ipLocationEmoji = require("ip-location-emoji")
 ```
 
 __Example:__
