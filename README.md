@@ -22,6 +22,7 @@ const ipLocationEmoji = require("ip-location-emoji")
 __Example:__
 
 ```javascript
-var emoji = ipLocationEmoji.getEmoji('160.131.149.104')
-// emoji ---> 🇺🇸 
+ipLocationEmoji.getEmoji('160.131.149.104').then( res => {
+// res ---> 🇺🇸 
+})
 ```
