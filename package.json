@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sultan S.",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.19.0",
     "iplocation": "^6.1.0"
