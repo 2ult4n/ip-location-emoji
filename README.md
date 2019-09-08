@@ -16,7 +16,7 @@ $ npm install --save ip-location-emoji
 __Importing:__
 
 ```javascript
-const ip-location-emoji = require("ip-location-emoji")
+const ipLocationEmoji = require("ip-location-emoji")
 ```
 
 __Example:__
