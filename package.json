@@ -11,5 +11,16 @@
   "dependencies": {
     "axios": "^0.19.0",
     "iplocation": "^6.1.0"
-  }
+  },
+  "homepage": "https://github.com/2ult4n/ip-location-emoji",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/2ult4n/ip-location-emoji"
+  },
+  "keywords": [
+    "ip",
+    "flag",
+    "emoji",
+    "country"
+  ]
 }
