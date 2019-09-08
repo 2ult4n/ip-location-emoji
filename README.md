@@ -1,5 +1,7 @@
 # ip-location-emoji
-[![CodeFactor](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji/badge)](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji)
+[![CodeFactor](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji/badge)](https://www.codefactor.io/repository/github/2ult4n/ip-location-emoji) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 
 > Gives a flag emoji of a given IP Address based on country of location
 
