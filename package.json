@@ -1,6 +1,6 @@
 {
   "name": "ip-location-emoji",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this package given an ip gives the flag of country that ip location belongs to ",
   "main": "index.js",
   "scripts": {
